@@ -44,9 +44,6 @@ const Hero = () => {
                             </div>
                             <p>Fully responsive</p>
                         </div>
-                        <div className=""></div>
-                        <div className=""></div>
-                        <div className=""></div>
                     </div>
                 </div>
             </div>

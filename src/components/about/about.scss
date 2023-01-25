@@ -4,6 +4,16 @@
     display: flex;
     justify-content: center;
     gap: 18rem;
+    margin-bottom: 13rem;
+
+    .img-container {
+        max-width: 41.1rem;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
 
     h2 {
         font-family: 'Rubik';
@@ -46,25 +56,123 @@
                 padding-bottom: 2.6rem;
             }
         }
-        
-        .learn-btn {
-            margin-top: 3.4rem;
-            text-transform: uppercase;
-            padding: 1.2rem 2rem;
-            text-align: center;
+    }
+}
+
+.wrapper-we-work {
+
+    padding-top: 13rem;
+    display: flex;
+    justify-content: center;
+    gap: 10.6rem;
+
+    .we-work-heading {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 4rem;
+        line-height: 4.7rem;
+        text-transform: uppercase;
+        padding-left: 3.5rem;
+        border-left: 5px solid $color-blue;
+        margin-left: -3.9rem;
+        margin-bottom: 2.6rem;
+        max-width: 50rem;
+    }
+
+    .about-container {
+
+        &--desc {
+            max-width: 36rem;
+    
+            p {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 2.6rem;
+                color: $color-grey;
+                padding-bottom: 2.6rem;
+            }
+        }
+    }
+}
+
+.histogram {
+
+    .histogram__item {
+        width: 57.5rem;
+        display: flex;
+        flex-direction: column;
+
+        &--inscr {
+            display: flex;
+            justify-content: space-between;
             font-family: 'Abel';
             font-weight: 400;
-            font-size: 1.2rem;
-            line-height: 1.5rem;
-            letter-spacing: 3px;
-            background-color: $color-blue;
-            width: 15rem;
-            height: 3.9rem;
-            display: inline-block;
-            border-radius: 5rem;
-            color: $color-white;
-            
-            text-decoration: none;
+            font-size: 2rem;
+            line-height: 2.6rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 1.2rem;
         }
+
+        &--lines {
+            display: flex;
+            height: 0.5rem;
+            margin-bottom: 3.8rem;
+        }
+    }
+    
+    .line {
+        
+        &--orange {
+            width: 92%;
+            background: #F2662F;
+        }
+
+        &--pink {
+            width: 88%;
+            background: #FA2B7E;
+        }
+
+        &--green {
+            width: 95%;
+            background: #23DDAC;
+        }
+
+        &--blue {
+            background: $color-blue;
+            width: 79%;
+        }
+
+        &--grey {
+            flex: auto;
+            background: $color-grey-light
+        }
+    }
+}
+
+.learn-btn {
+    margin-top: 3.4rem;
+    text-transform: uppercase;
+    padding: 1.2rem 2rem;
+    text-align: center;
+    font-family: 'Abel';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 3px;
+    background-color: $color-blue;
+    width: 15rem;
+    height: 3.9rem;
+    display: inline-block;
+    border-radius: 5rem;
+    color: $color-white;
+    transition: .2s;
+    
+    text-decoration: none;
+
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     }
 }
