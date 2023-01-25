@@ -1,0 +1,70 @@
+@import '../../variables.scss';
+
+.wrapper-about {
+    display: flex;
+    justify-content: center;
+    gap: 18rem;
+
+    h2 {
+        font-family: 'Rubik';
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 6rem;
+        line-height: 7.1rem;
+        padding-left: 4.3rem;
+        border-left: 5px solid $color-blue;
+        margin-left: -4.8rem;
+    }
+
+    .heading-p {
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        letter-spacing: 2px;
+        color: $color-blue;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+    }
+
+    .about-container {
+
+        margin-top: 8rem;
+
+        &--desc {
+            max-width: 36rem;
+    
+            p {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 2.6rem;
+                color: $color-grey;
+                padding-bottom: 2.6rem;
+            }
+        }
+        
+        .learn-btn {
+            margin-top: 3.4rem;
+            text-transform: uppercase;
+            padding: 1.2rem 2rem;
+            text-align: center;
+            font-family: 'Abel';
+            font-weight: 400;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            letter-spacing: 3px;
+            background-color: $color-blue;
+            width: 15rem;
+            height: 3.9rem;
+            display: inline-block;
+            border-radius: 5rem;
+            color: $color-white;
+            
+            text-decoration: none;
+        }
+    }
+}

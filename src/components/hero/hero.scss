@@ -3,17 +3,14 @@
 
 .hero {
     position: relative;
-    // width: 100vw;
-    height: 87vh;
-    // height: 70%;
-    // background-image: url('../../img/hero-background.jpg');
-    // background-position: center center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    height: 100vh;
+    margin-bottom: 30rem;
+
 
     &__text {
         padding-top: 17rem;
         width: 51.1rem;
+        margin-bottom: 9rem;
 
         h1 {
             color: $color-white;
@@ -37,7 +34,7 @@
     &::before {
         content: "";
         position: absolute;
-        top: 0;
+        top: -1rem;
         right: 0;
         width: 100%;
         height: 100%;
