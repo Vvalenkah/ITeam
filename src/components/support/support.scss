@@ -1,0 +1,81 @@
+@import '../../variables.scss';
+
+.wrapper-black {
+    position: absolute;
+    background: $color-black;
+    width: 100vw;
+    z-index: -999;
+    margin-top: -7rem;
+
+    h2 {
+        margin-top: 20rem;
+        font-family: 'Rubik';
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 6rem;
+        line-height: 7.1rem;
+        padding-left: 4.3rem;
+        border-left: 5px solid $color-blue;
+        color: $color-white;
+    }
+
+    p {
+        padding-left: 4.7rem;
+    }
+
+    .contact-form {
+
+        &__top {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            gap: 9rem;
+            margin-bottom: 2.8rem;
+  
+            input {
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 1.9rem;
+                color: $color-white;
+                background: $color-black;
+                width: 33rem;
+                border: none;
+                border-bottom: 2px solid $color-white;
+                padding-left: 1rem;
+    
+    
+                &::placeholder {
+                    color: $color-white
+                }
+            }
+        }
+
+        &__bottom {
+            width: 100%;
+
+            input {
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 1.9rem;
+                color: $color-white;
+                background: $color-black;
+                width: 100%;
+                border: none;
+                border-bottom: 2px solid $color-white;
+                padding-left: 1rem;
+    
+    
+                &::placeholder {
+                    color: $color-white
+                }
+            }
+        }
+
+    }
+}

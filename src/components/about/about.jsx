@@ -7,10 +7,10 @@ const About = () => {
     return (
         <>
             <div className="wrapper wrapper-about padding-add">
-                <div className="img-container">
+                <div className="img-container-about">
                     <img src={about1} alt="" />
                 </div>
-                <div className="about-container margin-add">
+                <div className="about-container margin-add padding-add-small">
                     <h2>About us</h2>
                     <p className='heading-p'>Technology</p>
                     <div className="about-container--desc">

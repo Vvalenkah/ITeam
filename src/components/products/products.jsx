@@ -7,10 +7,10 @@ import products from '../../img/products.jpg';
 const Products = () => {
     return (
         <>
-            <div className="wrapper wrapper-about">
-                <div className="about-container margin-add">
+            <div className="wrapper wrapper-about padding-add-medium">
+                <div className="about-container padding-add-small">
                     <h2>Be unique</h2>
-                    <p className='heading-p'>Technology</p>
+                    <p className='heading-p'>people really matter</p>
                     <div className="about-container--desc">
                         <p>
                             Nulla placerat mi vitae mauris varius consequat.
@@ -25,8 +25,30 @@ const Products = () => {
                     </div>
                     <a href="#" className='learn-btn'>Learn more</a>
                 </div>
-                <div className="img-container">
+                <div className="img-container-unique">
                     <img src={uniqueImg} alt="" />
+                </div>
+            </div>
+            <div className="wrapper wrapper-about padding-add-medium">
+                <div className="img-container-about">
+                    <img src={products} alt="" />
+                </div>
+                <div className="about-container padding-add-small">
+                    <h2>Products</h2>
+                    <p className='heading-p'>latest features</p>
+                    <div className="about-container--desc">
+                        <p>
+                            Nulla placerat mi vitae mauris varius consequat.
+                            Aliquam libero ante, consectetur at turpis sit
+                            amet, congue Suspendisse porta bibendum
+                            scelerisque.
+                        </p>
+                        <p>
+                            Suspendisse porta bibendum scelerisque. 
+                            Nulla placerat
+                        </p>
+                    </div>
+                    <a href="#" className='learn-btn'>Learn more</a>
                 </div>
             </div>
         </>

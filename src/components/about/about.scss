@@ -5,7 +5,7 @@
     justify-content: center;
     gap: 19rem;
 
-    .img-container {
+    .img-container-about {
         max-width: 41.1rem;
 
         img {
@@ -26,26 +26,13 @@
         margin-left: -4.8rem;
     }
 
-    .heading-p {
-        font-family: 'Abel';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 2rem;
-        line-height: 2.5rem;
-        letter-spacing: 2px;
-        color: $color-blue;
-        text-transform: uppercase;
-        margin-bottom: 3rem;
-    }
-
-    .margin-add {
-        margin-top: 8rem;
-    }
-
     .about-container {
 
+            width: 40.1rem;
+            padding-left: 4.3rem;
+
         &--desc {
-            max-width: 36rem;
+            // max-width: 36rem;
     
             p {
                 font-family: 'Open Sans';
@@ -179,6 +166,15 @@
     }
 }
 
-.padding-add {
-    padding-top: 30rem;
+.heading-p {
+    z-index: 5;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    color: $color-blue;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
 }
