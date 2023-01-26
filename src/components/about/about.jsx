@@ -6,11 +6,11 @@ import './about.scss';
 const About = () => {
     return (
         <>
-            <div className="wrapper wrapper-about">
+            <div className="wrapper wrapper-about padding-add">
                 <div className="img-container">
                     <img src={about1} alt="" />
                 </div>
-                <div className="about-container">
+                <div className="about-container margin-add">
                     <h2>About us</h2>
                     <p className='heading-p'>Technology</p>
                     <div className="about-container--desc">

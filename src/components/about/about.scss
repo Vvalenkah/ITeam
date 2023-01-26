@@ -3,8 +3,7 @@
 .wrapper-about {
     display: flex;
     justify-content: center;
-    gap: 18rem;
-    margin-bottom: 13rem;
+    gap: 19rem;
 
     .img-container {
         max-width: 41.1rem;
@@ -39,9 +38,11 @@
         margin-bottom: 3rem;
     }
 
-    .about-container {
-
+    .margin-add {
         margin-top: 8rem;
+    }
+
+    .about-container {
 
         &--desc {
             max-width: 36rem;
@@ -174,5 +175,10 @@
 
     &:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        transform: translateY(-.1rem);
     }
+}
+
+.padding-add {
+    padding-top: 30rem;
 }
