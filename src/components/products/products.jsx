@@ -8,7 +8,7 @@ const Products = () => {
     return (
         <>
             <div className="wrapper wrapper-about padding-add-medium">
-                <div className="about-container padding-add-small">
+                <div className="about-container padding-add-small" id="people">
                     <h2>Be unique</h2>
                     <p className='heading-p'>people really matter</p>
                     <div className="about-container--desc">
@@ -33,7 +33,7 @@ const Products = () => {
                 <div className="img-container-about">
                     <img src={products} alt="" />
                 </div>
-                <div className="about-container padding-add-small">
+                <div className="about-container padding-add-small" id="products">
                     <h2>Products</h2>
                     <p className='heading-p'>latest features</p>
                     <div className="about-container--desc">

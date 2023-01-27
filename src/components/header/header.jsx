@@ -7,17 +7,17 @@ const Header = () => {
     return (
         <>
             <header>
-                <div className="wrapper header-wrapper">
+                <div className="wrapper header-wrapper" id='home'>
                     <div className="logo-container">
                         <img src={logo} alt="Logo" />
                     </div>
                     <ul>
-                        <a href="#"><li>Home</li></a>
-                        <a href='#'><li>About Us</li></a>
-                        <a href="#"><li>Service</li></a>
-                        <a href="#"><li>Products</li></a>
-                        <a href="#"><li>People</li></a>
-                        <a href="#"><li>Contact</li></a>
+                        <a href="#home"><li>Home</li></a>
+                        <a href='#about'><li>About Us</li></a>
+                        <a href="#service"><li>Service</li></a>
+                        <a href="#people"><li>People</li></a>
+                        <a href="#products"><li>Products</li></a>
+                        <a href="#contact"><li>Contact</li></a>
                     </ul>
                 </div>
             </header>

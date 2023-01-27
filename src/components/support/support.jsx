@@ -5,19 +5,20 @@ import './support.scss';
 const Support = () => {
     return (
         <>
-        <div className="wrapper-black">
+        <div className="wrapper-black wrapper-black__support" id='contact'>
             <div className="wrapper">
                 <h2>Support</h2>
-                <p className='heading-p'>get in touch</p>
+                <p className='heading-p padding-left'>get in touch</p>
                 <div className="contact-form">
                     <div className="contact-form contact-form__top">
-                        <input type="text" placeholder='Name' />
-                        <input type="text" placeholder='Email'/>
-                        <input type="text" placeholder='Phone'/>
+                        <input type="text" placeholder='Name' autocomplete="new-password" />
+                        <input type='email' placeholder='Email' autocomplete="new-password"/>
+                        <input type='number' placeholder='Phone' autocomplete="new-password"/>
                     </div>
                     <div className="contact-form contact-form__bottom">
-                        <input type="text" placeholder='Message'/>
+                        <input type="text" placeholder='Message' autocomplete="new-password"/>
                     </div>
+                     <a href="#" className='learn-btn'>Send</a>
                 </div>
             </div>
         </div>

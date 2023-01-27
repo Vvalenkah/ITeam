@@ -10,7 +10,7 @@ const About = () => {
                 <div className="img-container-about">
                     <img src={about1} alt="" />
                 </div>
-                <div className="about-container margin-add padding-add-small">
+                <div  id='about' className="about-container margin-add padding-add-small">
                     <h2>About us</h2>
                     <p className='heading-p'>Technology</p>
                     <div className="about-container--desc">
@@ -28,7 +28,7 @@ const About = () => {
                     <a href="#" className='learn-btn'>Learn more</a>
                 </div>
             </div>
-            <div className="wrapper wrapper-we-work">
+            <div className="wrapper wrapper-we-work" id='service'>
                 <div className="about-container">
                     <h2 className='we-work-heading'>
                         We work with big and

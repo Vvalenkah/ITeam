@@ -1,14 +1,22 @@
 @import '../../variables.scss';
 
 .wrapper-black {
-    position: absolute;
     background: $color-black;
     width: 100vw;
     z-index: -999;
-    margin-top: -7rem;
+
+    &__support {
+        padding-top: 20rem;
+        margin-top: -7rem;
+    }
+
+    &__contacts {
+        padding-top: 10rem;
+        padding-bottom: 1.5rem;
+    }
 
     h2 {
-        margin-top: 20rem;
+        // margin-top: 20rem;
         font-family: 'Rubik';
         text-transform: uppercase;
         font-style: normal;
@@ -18,10 +26,6 @@
         padding-left: 4.3rem;
         border-left: 5px solid $color-blue;
         color: $color-white;
-    }
-
-    p {
-        padding-left: 4.7rem;
     }
 
     .contact-form {
@@ -35,6 +39,12 @@
             margin-bottom: 2.8rem;
   
             input {
+
+                &:focus {
+                    outline: 0;
+                    outline-offset: 0;
+                }
+                
                 font-family: 'Rubik';
                 font-style: normal;
                 font-weight: 400;
@@ -46,6 +56,7 @@
                 border: none;
                 border-bottom: 2px solid $color-white;
                 padding-left: 1rem;
+                padding-bottom: .7rem;
     
     
                 &::placeholder {
@@ -56,8 +67,15 @@
 
         &__bottom {
             width: 100%;
+            margin-bottom: 0.6rem;
 
             input {
+                
+                &:focus {
+                    outline: 0;
+                    outline-offset: 0;
+                }
+                
                 font-family: 'Rubik';
                 font-style: normal;
                 font-weight: 400;
@@ -69,6 +87,7 @@
                 border: none;
                 border-bottom: 2px solid $color-white;
                 padding-left: 1rem;
+                padding-bottom: .7rem;
     
     
                 &::placeholder {
