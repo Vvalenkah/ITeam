@@ -12,17 +12,48 @@ html {
     // Defines what "1rem" is
     font-size: 62.5%;
     scroll-behavior:smooth;
+    overflow-x: hidden;
+
+    @media screen and (max-width: 1290px) {
+        font-size: 55%;
+    }
+
+    @media screen and (max-width: 800px) {
+        font-size: 45%;
+    }
+
+    @media screen and (max-width: 450px) {
+        font-size: 35%;
+    }
 }
 
 
 body {
+    overflow-x: hidden;
     line-height: 1.7;
     box-sizing: border-box;
     position: relative;
     width: 100vw;
 }
 
+.fix {
+    position: fixed;
+    // overflow: hidden;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 117rem;
+
+    @media screen and (max-width: 1290px) {
+        max-width: 90rem;
+    }
+
+    @media screen and (max-width: 800px) {
+        max-width: 85rem;
+    }
+
+    @media screen and (max-width: 450px) {
+        max-width: 70rem;
+    }
 }

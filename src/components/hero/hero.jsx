@@ -9,7 +9,7 @@ import tech4 from '../../img/hero-tech-4.svg';
 const Hero = () => {
     return (
         <>
-            <div className="hero">
+            <div className="hero"  id='home'>
                 <div className="wrapper">
                     <div className="hero__text">
                         <h1>

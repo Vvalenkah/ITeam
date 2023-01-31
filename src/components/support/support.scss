@@ -30,6 +30,10 @@
 
     .contact-form {
 
+        @media screen and (max-width: 450px) {
+            margin-top: 5rem;
+        }
+
         &__top {
             display: flex;
             flex-direction: row;
@@ -37,6 +41,14 @@
             width: 100%;
             gap: 9rem;
             margin-bottom: 2.8rem;
+
+            
+            @media screen and (max-width: 450px) {
+                flex-direction: column;
+                align-items: center;
+                gap: 5rem;
+                margin-bottom: 4.5rem;
+            }
   
             input {
 
@@ -62,12 +74,19 @@
                 &::placeholder {
                     color: $color-white
                 }
+
+                @media screen and (max-width: 450px) {
+                    width: 70%;
+                }
             }
         }
 
         &__bottom {
             width: 100%;
             margin-bottom: 0.6rem;
+
+            display: flex;
+            justify-content: center;
 
             input {
                 
@@ -93,8 +112,20 @@
                 &::placeholder {
                     color: $color-white
                 }
+
+                @media screen and (max-width: 450px) {
+                    width: 70%;
+                }
             }
         }
 
+        .support-btn-container {
+
+            @media screen and (max-width: 450px) {
+                display: flex;
+                justify-content: center;
+                margin-top: 4rem;
+            }
+        }
     }
 }

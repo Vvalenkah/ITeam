@@ -18,7 +18,9 @@ const Support = () => {
                     <div className="contact-form contact-form__bottom">
                         <input type="text" placeholder='Message' autocomplete="new-password"/>
                     </div>
-                     <a href="#" className='learn-btn'>Send</a>
+                    <div className="support-btn-container">
+                        <a href="#" className='learn-btn'>Send</a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -7,6 +7,14 @@
     justify-content: center;
     margin-bottom: 4rem;
 
+    @media screen and (max-width: 1290px) {
+        gap: 7rem;
+    }
+
+    @media screen and (max-width: 800px) {
+        gap: 3rem;
+    }
+
     &__card {
         width: 23rem;
         display: flex;
@@ -44,4 +52,7 @@
 
 .footer-nav {
     gap: 7rem;
+    @media screen and (max-width: 450px) {
+        gap: 1rem;
+    }
 }
