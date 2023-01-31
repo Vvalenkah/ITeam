@@ -87,21 +87,21 @@ header {
             }
         }
 
-    @media screen and (max-width: 450px) {
-        .header-menu {
-        height: 100vh;
-        width: 70vw;
-        position: absolute;
-        top: 0;
-        right: -500px;
-        flex-direction: column;
-        background: rgba($color: #000000, $alpha: 0.9);
-        padding: 7rem 0 7rem 0;
-        z-index: 998;
-        font-size: 5rem;
-        // gap: 7rem;
-        justify-content: space-evenly;
-        border-radius: 3px;
+@media screen and (max-width: 450px) {
+    .header-menu {
+    height: 100vh;
+    width: 70vw;
+    position: absolute;
+    top: 0;
+    right: -500px;
+    flex-direction: column;
+    background: rgba($color: #000000, $alpha: 0.9);
+    padding: 7rem 0 7rem 0;
+    z-index: 998;
+    font-size: 5rem;
+    gap: 5rem;
+    justify-content: center;
+    border-radius: 3px;
     }
 
     .active {

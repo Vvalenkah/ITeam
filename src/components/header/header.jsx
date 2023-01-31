@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 
+import Head from '../head';
+
 import logo from '../../img/logo1.svg';
 import burger from '../../img/burger.svg';
 import './header.scss';
@@ -21,6 +23,7 @@ const Header = () => {
 
     return (
         <>
+            <Head />
             <header>
                 <div className="wrapper header-wrapper">
                     <div className="logo-container">

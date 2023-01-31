@@ -79,6 +79,14 @@
         gap: 3.6rem;
     }
 
+    @media screen and (max-width: 380px) {
+        left: 0;
+        right: 0;
+        justify-content: space-around;
+        width: 100vw;
+        gap: 0;
+    }
+
     
     &--card {
 
@@ -94,6 +102,10 @@
 
         @media screen and (max-width: 450px) {
             max-width: 15rem;
+        }
+
+        @media screen and (max-width: 380px) {
+            max-width: 12rem;
         }
 
         .image-container {
@@ -122,6 +134,15 @@
 
                 img {
                     width: 5.5rem;
+                }
+            }
+
+            @media screen and (max-width: 380px) {
+
+                height: 10rem;
+
+                img {
+                    width: 4.5rem;
                 }
             }
 
